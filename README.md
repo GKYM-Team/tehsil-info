@@ -1,4 +1,4 @@
-## Təhsil-info
+## Təhsil info
 
 Firstly, you should download [git](https://git-scm.com/downloads). <br/><br/>
 After enter your work folder in your computer and open git bash terminal.<br/>
