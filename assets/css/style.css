@@ -1,0 +1,49 @@
+/*--- GLOBAL CSS ---*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+html,body{
+	font-family: "Nunito Sans", sans-serif;
+	font-style: normal;
+	overflow-x: hidden;
+}
+:root{
+	--main-color: #48474d;
+	--link-color: #70b7ff;
+	--link-hover: #3e8fe1;
+	--border-color: #d1d1d1;
+}
+
+ul{ list-style: none; }
+
+ul li{ display: inline-block; }
+
+a{ text-decoration: none; }
+
+.text-center{
+	text-align: center;
+}
+.d-flex{ display: flex; }
+
+.just-center{ justify-content: center; }
+
+.just-between{ justify-content: space-between; }
+
+.just-around{ justify-content: space-around; }
+
+.align-center{ align-items: center; }
+
+.flex-column{ flex-direction: column; }
+
+.flex-wrap{
+	flex-wrap: wrap;
+}
